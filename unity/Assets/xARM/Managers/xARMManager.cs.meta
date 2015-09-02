@@ -1,0 +1,46 @@
+fileFormatVersion: 2
+guid: 2ccc2bc41d94f4bf7be9f7a9933e436b
+labels:
+- Preview
+- Gallery
+- Display
+- Fragmentation
+- Diagonal
+- UI
+- GUI
+- Scale
+- SaveArea
+- Platform
+- Multiplatform
+- Crossplatform
+- Translation
+- Multilingual
+- DPI
+- PPI
+- Format
+- Resolution
+- Densitiy
+- Pixel
+- Perfect
+- Atlas
+- Anchor
+- Screen
+- physical
+- size
+- screenshot
+- Screencap
+- export
+- png
+- overview
+- snapshot
+- interface
+- scaled
+- 1:1
+- ScaleRatio
+- uGUI
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

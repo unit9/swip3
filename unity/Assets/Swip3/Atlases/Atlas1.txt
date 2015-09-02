@@ -1,0 +1,60 @@
+{"frames": {
+
+"Close":
+{
+	"frame": {"x":170,"y":24,"w":14,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":15},
+	"sourceSize": {"w":14,"h":15}
+},
+"Info":
+{
+	"frame": {"x":164,"y":24,"w":4,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":4,"h":18},
+	"sourceSize": {"w":4,"h":18}
+},
+"Leaderboards":
+{
+	"frame": {"x":164,"y":44,"w":26,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":15},
+	"sourceSize": {"w":26,"h":15}
+},
+"OutlineBox":
+{
+	"frame": {"x":164,"y":2,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20}
+},
+"Unit9Logo":
+{
+	"frame": {"x":2,"y":2,"w":160,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":60},
+	"sourceSize": {"w":160,"h":60}
+},
+"White":
+{
+	"frame": {"x":186,"y":2,"w":8,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":8},
+	"sourceSize": {"w":8,"h":8}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Atlas1.png",
+	"format": "RGBA4444",
+	"size": {"w":256,"h":64},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6750261a73b1b693817718f16f84e662:60394babd3de65e9e4823a9e00788dfb:2209e571c60dc8f07919e256e32ac23e$"
+}
+}

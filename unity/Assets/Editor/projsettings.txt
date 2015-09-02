@@ -1,0 +1,6 @@
+lastUpgrade=00900
+proj.AppId=
+android.SetupDone=true
+ios.ClientId=
+ios.BundleId=
+ios.SetupDone=true

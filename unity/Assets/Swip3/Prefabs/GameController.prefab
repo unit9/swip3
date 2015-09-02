@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 9
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -28.9884415, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf80743a1bb8487bb2ac65407d571c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockPrefab: {fileID: 11400002, guid: c50b18afea1ed4a3e9fa98b02d49ff5f, type: 2}
+  backgroundBlockPrefab: {fileID: 11400002, guid: 6158490d330bc47a9a8190b084e38252,
+    type: 2}
+  projectionPrefab: {fileID: 100000, guid: 8d81fadc87451b5478d094f8e153321b, type: 2}
+  gridSize: 7
+  numberOfEdgeSpawns: 3
+  blockSize: 53
+  blockPaddingSize: 1
+  edgeGapSize: 10
+  colorPalette:
+  - {r: .866666675, g: .290196091, b: .301960796, a: 1}
+  - {r: .996078432, g: .827450991, b: .298039228, a: 1}
+  - {r: .160784319, g: .709803939, b: .960784316, a: 1}
+  - {r: .996078432, g: .564705908, b: 0, a: 1}
+  - {r: .113725491, g: .909803927, b: .709803939, a: 1}
+  - {r: .486274511, g: .301960796, b: .996078432, a: 1}
+  colorManager: {fileID: 0}
+  normalGameOverView: {fileID: 0}
+  newHighScoreGameOverView: {fileID: 0}
+  currentScoreLabel: {fileID: 0}
+  bestScoreLabel: {fileID: 0}
+  infoButton: {fileID: 0}
+  leaderboardsButton: {fileID: 0}
+  infoButtonSprite: {fileID: 0}
+  swipeRecognizer: {fileID: 0}
+  _TrialRenderer: {fileID: 100000, guid: 204826a5f926e004692b7a843f4231fa, type: 2}
+  _OnScore: {fileID: 100000, guid: 319d04c28ecf57a449b15bad363f4d5a, type: 2}
+  _OnMove: {fileID: 100000, guid: 68b2ab58023f5804492450f0e03a093a, type: 2}
+  _IntroEffect: {fileID: 0}
+  _IntroLogo: {fileID: 0}
+  WebCom: {fileID: 0}
+  Platform: 1
+  introView: {fileID: 0}
+  infoView: {fileID: 0}
+  quitView: {fileID: 0}
+  gameView: {fileID: 0}
+  highScoreView: {fileID: 0}
+  newScoreView: {fileID: 0}
+  EPrevView: 0
+  GameCreated: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

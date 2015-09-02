@@ -1,0 +1,156 @@
+/*
+Version		Change
+
+0.09.109	Initial Release (xARM Gallery window)
+
+
+0.09.128
+		Added xARM Preview window
+
+		xARM Options:
+		 + OS column
+		 + Format column
+
+
+1.00.153
+		Added Delegates to run custom code:
+		 + OnPreScreenCapUpdate
+		 + OnPostScreenCapUpdate
+		 + OnFinalizeScreenCapUpdate
+		and example how to use:
+		 + xARMDelegatesExample.cs
+			
+		Added iPhone 5C and 5S
+		
+		Performance improvements
+		Several Bugfixes
+	
+		
+1.01.166
+		xARM Preview:
+		 + 1:1px (pixel perfect) option
+		 + 1:1 physical size (device dimensions) option
+		 
+		Improved interaction with GameView
+		Several Bugfixes
+
+
+1.02.198
+		xARM Gallery:
+		 + Scale Ratio ('fingerprint')
+			
+		new ScreenCaps:
+		 + iPad Mini 2
+		 + iPad Air
+		 + Nexus 7 2. generation
+		 + Nexus 5
+		 
+		Android ScreenCaps with system/navigation bar offset (based on density group)
+		Bugfixes
+
+
+1.03.226
+		xARM Preview:
+		 + Game View inherits xARM Preview resolution option
+		 + Fallback Game View resolution option
+		
+	 	xARM Options:
+	 	 + Frames to wait between Game View resize and ScreenCap update option 
+	 	
+	 	Bugfix: Endless update in Pause mode
+	 	Several minor improvements and bugfixes
+
+
+1.03.233
+		Bugfix: xARMSettings.xml encoding error on Korean systems
+		Bugfix: GameView positon makes toolbar unreachable
+
+
+1.04.261
+		xARM Preview:
+			+ Auto update in Play mode
+			+ Export ScreenCap as PNG
+			+ Export all ScreenCaps as PNGs
+		
+		xARM Gallery:
+			+ Click on ScreenCap selects it in xARM Preview
+			+ Export all ScreenCaps as PNGs
+		
+		xARM Options:
+			+ New Layout for better overview
+			> xARM Preview:
+				+ Update xARM Preview while Game View has focus option
+				+ Update limit in Edit and Play mode options
+			> xARM Gallery:
+				+ Update limit in Edit mode option
+		
+		ScreenCaps:
+			+ Navigation Bar (Android) ScreenCap filter
+			+ ScreenCap infos updated to latest stats (Unity 2014-03)
+			+ 3 new Android ScreenCaps
+			+ 3 new Standalone ScreenCaps
+			+ Windows Phone 8 support (7 ScreenCaps)
+			+ Windows RT support (3 ScreenCaps)
+			+ Custom ScreenCap section
+	
+		Bugfix: Improved xARMSettings.xml handling for versioning (Perforce, etc.)
+		Bugfix: No more Xcode Build warning "The class defined in script file named 'xARMProxy' does not match the file name!"
+
+
+1.04.266
+		Bugfix: PNG export on Windows creates no longer partial transparent images
+	
+
+1.04.287
+		IMPORTANT: Saved Layouts may still contain an un-resizeable Game View. 
+			See ReadMe: "FAQ: How to fix Layouts with an un-resizeable Game View?".
+		Change: Game View stays resizable after ScreenCap update
+		Bugfix: Ensure Game View is always reachable
+		Bugfix(3.x): Always trace Game View position
+		Change: Ensure a xARMProxy always exists
+		Bugfix: Game View has correct resolution after selection in xARM Preview
+		Bugfix(3.x): Game View Y-Scrolling is rarer and limited to 5 pixels
+		Bugfix: Only one Options window at the same time
+		Bugfix: Ensure correct display of Preview and Gallery after Edit->Pause/Play mode switch
+		Bugfix(4.x): Draw ScreenCaps without Playmode tint
+		Bufgix: Game View has correct resolution after Gallery's 1xUpdate
+		Bugfix: Preview update works after Gallery's 1xUpdate is used
+		Bugfix: Save correct (not default) settings to xARMSettings.xml if last change was ScreenCap (de)activation
+		Change: Oldest supported version is now 3.5.7
+	
+
+1.04.291
+		xARM Options:
+			+ auto/fixed Game View position option
+		
+		Bugfix: Game View can be positioned on secondary monitors
+		Bugfix: Game View doesn't move behind MacOSX menu bar
+	
+
+1.04.309
+		+ Brand-new PDF user guide with Getting Started chapter
+		
+		xARM Preview:
+			+ ScreenCap is now centered in 1:1py and 1:1px mode 
+		
+		Several UI tweaks
+
+
+1.04.317
+		new ScreenCaps:
+			+ iPhone 6
+			+ iPhone 6 Plus
+			+ Amazon Fire Phone (added to existing ScreenCap, see "Sample devices")
+		
+		Bugfix: Some Android Navigation Bar ScreenCaps were incorrect
+		
+		Some UI tweaks
+
+
+1.04.318
+		new ScreenCap:
+			+ iPhone 6 Plus @ virtual resolution
+		
+		Change: iOS DPI Group now "@1x", "@2x" and "@3x" instead of "standard" and "Retina"
+
+*/
